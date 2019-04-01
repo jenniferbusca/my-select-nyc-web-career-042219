@@ -1,7 +1,9 @@
 def my_select(array)
   selection = []
   array.select do |i| 
-    selection << yield(i)
+    yield
+    if yield(i) == true
+    selection << i
   end
   selection
 end
