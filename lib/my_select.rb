@@ -5,5 +5,5 @@ def my_select(array)
     selection << yield(array[i].select)
     i += 1
   end
-  puts selection
+  selection
 end
