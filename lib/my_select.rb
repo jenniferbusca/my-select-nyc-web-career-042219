@@ -1,3 +1,5 @@
 def my_select(collection)
- # your code here!
+  new_collection = []
+
+  return new_collection
 end
