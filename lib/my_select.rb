@@ -1,5 +1,7 @@
 def my_select(array)
   selection = []
-  array.select {|i| selection << yield(i)}
+  array.select do |i| 
+    selection << yield(i)
+  end
   selection
 end
