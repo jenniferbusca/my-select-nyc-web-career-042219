@@ -4,5 +4,6 @@ def my_select(array)
     if yield(i) == true
     selection << yield(i)
   end
+  end
   selection
 end
